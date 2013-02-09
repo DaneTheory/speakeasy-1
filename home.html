@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>speakeasy</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body id="bodddayy" class="background-pic">
+    
+    <div id="header"><h1><div id="header-logo"><a href="index.html">speakeasy</a></div></h1><div id="hashertag">#fb_hack</div></div>
+
+    <div id="welcome">
+      <div id="logo">
+        <h1>speakeasy</h1>
+      </div>
+
+      <div id="title">
+        <h2>Have a Conversation.</h2>
+      </div>
+
+      <div id="support">
+        <h3>Choose a name and talk to the world!</h3>
+      </div>
+
+      <div id="intro">
+          <input id="username" type="text" class="border">
+          <input id="usr-btn" type="submit" value"Get Started!">
+      </div>
+
+      <div id="footer">
+          <h3> Made by Ali and Ehsan from Illinois</h3>
+      </div>
+    </div>
+
+    <div id="first_thing">
+      <div id="welcome">
+        <div id="logo">
+          <h1>speakeasy</h1>
+        </div>
+
+        <div id="title">
+          <h2>Have a Conversation.</h2>
+        </div>
+
+        <div id="support">
+          <h3>Create a room or join an existing one!</h3>
+        </div>
+        <div id="portal">
+          <div id="host">
+            <input id="btn-create" type="submit" value="Create">
+          </div>
+
+          <br>
+          <h2>or</h2>
+
+          <div id="join">
+            <input id="room-name" type="text" class="border" value="room#">
+            <input id="btn-join" type="submit" value="Join">
+          </div>
+        </div>
+        <div id="footer">
+            <h3> Made by Ali and Ehsan from Illinois</h3>
+        </div>
+      </div>
+    </div>
+
+    <div id="second_thing">
+      <br>
+      <div id="roomnumber"></div>
+      <h5 id="roomnumtut">Give the number above to a friend to have them join this room.</h5>
+      <br>
+      <div id="guests"></div>
+      <br>
+      <div id="language-prop">
+        <select id="select_language" class="language-selector" onchange="window.updateCountry()"></select>
+        <select id="select_dialect" class="language-selector"></select>
+      </div>
+
+      <div id="info">
+        <h5 id="info_start">Click on the microphone icon and begin speaking.</h5>
+        <h5 id="info_speak_now">Speak now.</h5>
+      </div>
+      <div id="audio"></div>
+
+      <div id="talk">
+        <div id = "lorem">
+          <h4>
+            <span id="final_span" class="final"></span>
+            <span id="interim_span" class="interim"></span>
+          </h4>
+          <h4>
+            <div id="conversation"></div>
+          </h4>
+        </div>
+
+        <button id="start_button" onclick="window.startButton(event)">
+          <img id="start_img" src="img/mic.gif" alt="Start">
+        </button>
+      </div>
+    </div>
+
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+    <script src="js/frontend.js"></script>
+    <script src="speakClient.js"></script>
+    <script src="/socket.io/socket.io.js"></script>
+
+    <script>
+    </script>
+  </body>
+</html>

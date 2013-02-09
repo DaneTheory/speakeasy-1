@@ -1,0 +1,52 @@
+<html>
+  <head>
+    <title>speakeasy</title>
+    <meta name="description" content="speakeasy">
+    <meta name="viewport" content="width=device-width">
+
+    <link rel='stylesheet' href='css/style.css' />
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+    <script src="js/frontend.js"></script>
+    <script src="/socket.io/socket.io.js"></script>
+  </head>
+
+  <body>
+    <div id="info">
+      <p id="info_start">Click on the microphone icon and begin speaking.</p>
+      <p id="info_speak_now">Speak now.</p>
+    </div>
+    <div id="intro">
+      <input id="username" type="text" class="border">
+      <input id="usr-btn" type="submit" value"Get Started!">
+    </div>
+    <div id="portal">
+      <div id="host">
+        <input id="btn-create" type="submit" value="Create">
+      </div>
+      <br>
+      <div id="join">
+        <input id="room-name" type="text" class="border" value="room name">
+        <input id="btn-join" type="submit" value="Join">
+      </div>
+    </div>
+    <div class="right">
+      <button id="start_button" onclick="window.startButton(event)">
+        <img id="start_img" src="img/mic.gif" alt="Start"></button>
+    </div>
+    <div id="results">
+      <span id="final_span" class="final"></span>
+      <span id="interim_span" class="interim"></span>
+      <p>
+    </div>
+    <div class="center">
+      <p>
+      <div id="div_language">
+        <select id="select_language" onchange="window.updateCountry()"></select>
+        &nbsp;&nbsp;
+        <select id="select_dialect"></select>
+      </div>
+    </div>
+  </body>
+
+</html>

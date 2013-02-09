@@ -1,0 +1,398 @@
+h3 {
+  font-weight: normal;
+  color: #FFFFFF;
+}
+body {
+  height: 100%;
+  background-color: #DDD;
+  border-top: 0px solid #333;
+  margin-top: 0px;
+  margin-left: -10px;
+  margin-right: -10px;
+  position: relative;
+  z-index: 2;
+}
+
+h2 {
+  color: rgba(255, 255, 255, 1);
+  font-weight: normal;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: -1px;
+  width: 150px;
+  padding: 10px 10px 10px 10px;
+  color: #FFFFFF;
+}
+
+h4 {
+  font-family:Arial, Helvetica, sans-serif;
+  letter-spacing: -1px;
+  padding: 10px 10px 10px 10px;
+  color: rgba(0, 0, 0, 1);
+  font-weight: normal;
+  text-align: center;
+}
+
+.background-pic {
+  background-image: url('speakeasy_5.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  z-index: 1;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#lorem{
+  width: 500px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+#welcome{
+  background-color: rgba(255, 60, 0, .7);
+}
+
+#header{
+  opacity: 0.4;
+  filter:alpha(opacity=40);
+}
+
+
+#logo {
+  margin-left: 100px;
+  margin-top: 30px;
+}
+
+#title {
+	font-family: Arial, Helvetica, sans-serif;
+	text-align: center;
+	margin-top: 70px;
+	font-size: 50px;
+	font-weight: normal;
+  color: #DDD;
+}
+
+#support {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: -55px;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    font-weight: normal !important;
+}
+
+#middle {
+	text-align: center;
+	margin-top: 40px;
+}
+
+#username,
+#room-name {
+	width: 300px;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  display: inline-block;
+  font-weight: bold;
+  height: 78px;
+  line-height: 29px;
+  min-width: 100px;
+  padding: 0 8px;
+  text-align: left;
+  font-size: 30px;
+  color: #333;
+  background-color: #FFFFFF;
+  border: 0;
+  padding-left: 20px;
+}
+
+#portal{
+  text-align: center;
+}
+
+#intro{
+  text-align:center;
+}
+
+#btn,
+#btn-join,
+#btn-create,
+#usr-btn {
+	width: 150px;
+	background-color: rgba(110, 139, 191, 1);
+	border: 5px solid #FFFFFF;
+  color: white;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  font-size: 30px;
+  border-radius: 3px;
+  display: inline-block;
+  font-weight: bold;
+  height: 80px;
+  line-height: 29px;
+  min-width: 100px;
+  padding: 0 8px;
+}
+
+.language-selector{
+ width: 150px;
+  background-color: rgba(110, 139, 191, 1);
+  border: 5px solid #FFFFFF;
+  color: white;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  font-size: 14px;
+  border-radius: 3px;
+  display: inline-block;
+  font-weight: bold;
+  height: 50px;
+  line-height: 29px;
+  min-width: 100px;
+  padding: 0 0px;
+  vertical-align: center;
+
+}
+
+#language-prop{
+  text-align: center;
+  font-size: 14px;
+}
+
+#start_button{
+  width: 150px;
+  background-color: rgba(110, 139, 191, 1);
+  border: 5px solid #FFFFFF;
+  color: white;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  font-size: 30px;
+  border-radius: 3px;
+  display: inline-block;
+  font-weight: bold;
+  height: 80px;
+  line-height: 29px;
+  min-width: 100px;
+  padding: 0 8px;
+  text-align: center;
+}
+
+#talk{
+  background-color: rgba(0, 0, 0, 0, 1);
+  border: none;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  text-align: center;
+}
+
+
+#stream {
+  text-align: center;
+  width:1200px;
+  margin-left: -90px;
+  margin-top: -50px;
+}
+
+.photo {
+  padding-bottom: 20px;
+}
+
+#container{
+  width: 250px;
+  height: 0px;
+  display:inline-block;
+}
+
+#wrapper{
+  float:right;
+  display:none;
+  min-height: 100%;
+  width: 250px;
+  clear:left;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  margin-top: 85px;
+  margin-left: -150px;
+}
+
+#display{
+  margin-top: 100px;
+  display:none;
+  width:765px;
+  height:765px;
+}
+#footer {
+
+  padding-top: 5px;
+  padding-bottom: 40px;
+  text-align: center;
+  margin-top: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  font-weight: normal;
+  font-style: italic;
+  color: #888;
+}
+
+#footer a {
+  color: #DDD;
+  text-decoration: none;
+}
+#footer a:hover {
+  color: #999;
+  text-decoration: none;
+}
+
+#img {
+  width: 100%;
+}
+
+#header {
+  z-index: 5;
+  background-color: #030303;
+  display: none;
+  height: 60px;
+  margin-top: -21px;
+  margin-left: 15px;
+}
+
+#header-logo {
+  padding-left: 50px;
+  padding-top: 6px;
+  font-size: 70%;
+}
+
+#header-logo a {
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #DA0025;
+  font-weight: bold;
+}
+
+#header-logo a:hover {
+  color: #CCC;
+}
+
+#profiles {
+  margin-top: 50px;
+  color: #CCC;
+  font-family: Arial, Helvetica, sans-serif;
+  height: 100%;
+  text-align: left;
+  opacity: 0.9;
+  width: 1200px;
+}
+
+#profiles h1 {
+  margin-left: 100px;
+  width: 800px;
+  margin-bottom: 80px;
+  color: #CCC;
+}
+
+#profiles h2 {
+  margin-left: 100px;
+  margin-bottom: 20px;
+  font-size: 60px;
+  letter-spacing: -1px;
+}
+
+#profiles h3 {
+  font-size: 25px;
+  margin-top: 0px;
+  font-weight: bold;
+}
+
+#propic{
+
+}
+
+#bob {
+  height: 250px;
+  width: 300px;
+  float: left;
+  margin-left: 100px;
+}
+
+#ali {
+  height: 250px;
+  width: 300px;
+  float: left;
+  margin-left: 20px;
+}
+
+#ehsan {
+  height: 250px;
+  width: 300px;
+  float: left;
+  margin-left: 20px;
+}
+
+#name {
+  background-color: #;
+  padding: 15px 10px 5px 3px;
+}
+
+#hashertag {
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 175px;
+  font-size: 18px;
+  color: #999;
+  margin-top: -56px;
+}
+
+#first_thing {
+  display: none;
+}
+
+#second_thing {
+  display: none;
+  background-color: #DDD;
+  z-index:3;
+  height: 200000px;
+  color: black;
+}
+
+#bodddayy{
+
+}
+
+#info {
+  text-align: center;
+}
+
+h5 {
+  color: black;
+  font-weight: normal;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  text-align: center;
+}
+
+#roomnumber {
+  color: black;
+  font-weight: normal;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 32px;
+  text-align: center;
+} 
+
+#guests {
+  color: black;
+  font-weight: normal;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  text-align: center;
+}
+
+#roomnumtut {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
